@@ -1,6 +1,6 @@
 # dota
 
-> Dota homepage
+> This is a simple web project about Dota2.
 
 ## Build Setup
 
