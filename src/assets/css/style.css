@@ -1,0 +1,138 @@
+* {
+  padding:0;
+  margin:0
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+.nav_container{
+  width: 100%;
+  height: 80px;
+  background-color: #000000;
+}
+
+.nav_main{
+  width: 1240px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.nav_logo{
+  display: block;
+  float: left;
+  width: 260px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background: url("../img/logo.jpg") center top no-repeat;
+  outline: none;
+}
+
+.nav_main .nav_bar{
+  float: left;
+  height: 100%;
+  width: 700px;
+}
+
+.nav_main .nav_bar .link_div{
+  position: relative;
+  float: left;
+  padding: 8px 7px;
+  text-align: center;
+  width: 78px;
+}
+
+.nav_main .nav_bar .link_div a{
+  float: left;
+  display: block;
+  font-size: 20px;
+  color: #a5a5a5;
+  text-decoration: none;
+}
+
+.nav_main .nav_bar .link_div .link_div_e{
+  font-size: 9px;
+}
+
+.nav_main .nav_user{
+  float: right;
+  width: 260px;
+  height: 100%;
+  margin-right: 0;
+  position: relative;
+}
+
+.nav_main .nav_user .info{
+  height: 80px;
+}
+
+.nav_main .nav_user .info .login_img{
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  position: absolute;
+  background-image: url("../img/login.png");
+}
+
+.nav_main .nav_user .info .login_box{
+  float: left;
+  margin-top: 15px;
+  margin-left: 70px;
+  display: block;
+}
+
+.nav_main .nav_user .info .login_box .login_info{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nav_main .nav_user .info .login_box .login_info1{
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.u_wrapper{
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.u_wrapper .u_container{
+  min-width: 1240px;
+  margin: 0 auto;
+  color: #999999;
+  padding-bottom: 60px;
+}
+
+.u_wrapper .u_container .u_header{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.u_wrapper .u_container .u_header .bg_img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.u_wrapper .u_container .u_header .bg_img li{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none
+}
+
+.u_wrapper .u_container .u_header .bg_img li:first-child{
+  display: block;
+}
